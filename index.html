@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width:device-width, initial-scale:1.0">
     <meta name="author" content="Virag Kormoczy">
-    <meta name="keywords" content="survey form, survey, paradise, resort">
     <meta name="description" content="This is a survey form about the Paun Paradise Resort">
-    <link href="https://www.tropicalnorthqueensland.org.au/wp-content/uploads/Sheraton-Grand-Mirage-01-1024x683.jpg" rel="image" id="background">
-    <link href="https://fonts.googleapis.com/css?family=Abril Fatface" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" type="text/css">
+    <title>Paun Paradise Resort</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>  
   
   <body>
-    <header><h1 id="title"><u>Paun &nbsp Paradise &nbsp Resort &nbsp Survey &nbsp Form</u></h1>
-      <p id="description"><i>Thank you for taking the time to help us improve our resort</i></p>
+    <header>
+        
+        <h1>Paun &nbsp Paradise &nbsp Resort &nbsp Survey &nbsp Form</h1>
+      <p id="description"><i>Thank you for taking the time to help us improve our resort.</i></p>
     </header><br>
     
     <form action="" autocomplete="on" name="survey form">
       <fieldset id="survey-form">
       <div>  
       <label for="name" id="name-label">Name</label><br>
-        <input type="text" id="name" name="name" placeholder="Enter your name here" required></div><br>
+        <input type="text" id="name" class="input-text" name="name" placeholder="Enter your name here" required></div><br>
       <div>
       <label for="email" id="email-label">Email</label><br>
-      <input type="email" id="email" name="email" placeholder="Enter your email here" required></div><br>
+      <input type="email" id="email" class="input-text" name="email" placeholder="Enter your email here" required></div><br>
       <div>
         <label for="number" id="number-label">Age <span class="opt">(optional)</span></label><br>
-        <input type="number" id="number" name="number" min="14" max="99" placeholder="Age"></div><br>
+        <input type="number" id="number" class="input-text" name="number" min="14" max="99" placeholder="Age"></div><br>
         <div>
         <label for="gender">Gender <span class="opt">(optional)</span></label><br>
-        <select id="gender" name="gender">
+        <select id="gender" class="input-text" name="gender">
           <option value="female">Female</option>
           <option value="male">Male</option>
           <option value="prefernottosay">Prefer not to say</option>
@@ -57,7 +57,7 @@
         </div><br>
         <div>
           <label for="service">What is your favorite service/activity?</label><br>
-          <select id="service" name="service">
+          <select id="service" class="input-text" name="service">
             <option value="indoor_pool">Indoor pool</option>
             <option value="outdoor_pool">Outdoor pool</option>
             <option value="spa">Spa</option>

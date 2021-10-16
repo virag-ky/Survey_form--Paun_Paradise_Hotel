@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("hotelparadise.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+h1,
+#description {
+  text-decoration: underline;
+  color: white;
+  background-color: rgb(219, 207, 189);
+  border: 5px solid white;
+  border-radius: 25px;
+  padding: 8px;
+}
+#description {
+  text-decoration: none;
+  font-weight: 900;
+}
+#survey-form {
+  background-color: rgb(219, 207, 189);
+  opacity: 0.8;
+  border: 5px solid white;
+  border-radius: 25px;
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 25px;
+}
+label,
+p {
+  font-size: 22px;
+}
+.input-text {
+  width: 400px;
+  padding: 8px;
+  border: solid white;
+  border-radius: 25px;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  border: solid white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+#submit {
+  padding: 10px;
+  width: 200px;
+  margin-top: 20px;
+  border: solid white;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#submit:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px rgb(136, 134, 132);
+  color: rgb(167, 163, 163);
+}
