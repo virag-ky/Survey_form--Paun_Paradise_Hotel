@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device-width, initial-scale:1.0">
+    <meta name="author" content="Virag Kormoczy">
+    <meta name="keywords" content="survey form, survey, paradise, resort">
+    <meta name="description" content="This is a survey form about the Paun Paradise Resort">
+    <link href="https://www.tropicalnorthqueensland.org.au/wp-content/uploads/Sheraton-Grand-Mirage-01-1024x683.jpg" rel="image" id="background">
+    <link href="https://fonts.googleapis.com/css?family=Abril Fatface" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" type="text/css">
+  </head>  
+  
+  <body>
+    <header><h1 id="title"><u>Paun &nbsp Paradise &nbsp Resort &nbsp Survey &nbsp Form</u></h1>
+      <p id="description"><i>Thank you for taking the time to help us improve our resort</i></p>
+    </header><br>
+    
+    <form action="" autocomplete="on" name="survey form">
+      <fieldset id="survey-form">
+      <div>  
+      <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name here" required></div><br>
+      <div>
+      <label for="email" id="email-label">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email here" required></div><br>
+      <div>
+        <label for="number" id="number-label">Age <span class="opt">(optional)</span></label><br>
+        <input type="number" id="number" name="number" min="14" max="99" placeholder="Age"></div><br>
+        <div>
+        <label for="gender">Gender <span class="opt">(optional)</span></label><br>
+        <select id="gender" name="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="prefernottosay">Prefer not to say</option>
+         </select></div><br>
+        <div>
+        <label for="role">Which option best describes your current role?</label><br>
+        <select id="role" name="role">
+          <option value="employed">Employed</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="stayathomeparent">Stay-at-home parent</option>
+          <option value="caretaker">Caretaker</option>
+          <option value="student">Student</option>
+          <option value="other">Other</option>
+         </select></div><br>
+        <div>
+          <p>Would you recommend Paun Paradise Resort to a friend?</p>
+          <input type="radio" id="yes" name="recommend_friend" value="Yes" checked>
+          <label for="yes">Yes</label><br>
+          <input type="radio" id="maybe" name="recommend_friend" value="Maybe">
+          <label for="maybe">Maybe</label><br>
+          <input type="radio" id="not_sure" name="recommend_friend" value="Not sure">
+          <label for="not_sure">Not sure</label><br>
+          <input type="radio" id="no" name="recommend_friend" value="No">
+          <label for="no">No</label>
+        </div><br>
+        <div>
+          <label for="service">What is your favorite service/activity?</label><br>
+          <select id="service" name="service">
+            <option value="indoor_pool">Indoor pool</option>
+            <option value="outdoor_pool">Outdoor pool</option>
+            <option value="spa">Spa</option>
+            <option value="gym">Gym</option>
+            <option value="golf_course">Golf course</option>
+            <option value="outdoor_cinema">Outdoor cinema</option>
+          </select></div><br>
+        <div>
+          <p>What would you like to see improved? <span class="opt">(Select all that apply)</span></p><br>
+          <input type="checkbox" id="rooms_ervice" name="improvement" value="Roomservice">
+          <label for="room_service">Room service</label><br>
+          <input type="checkbox" id="reception" name="improvement" value="Reception">
+          <label for="reception">Reception</label><br>
+          <input type="checkbox" id="pool" name="improvement" value="Pool">
+          <label for="pool">Pool</label><br>
+          <input type="checkbox" id="restaurant" name="improvement" value="Restaurant">
+          <label for="restaurant">Restaurant</label><br>
+          <input type="checkbox" id="cleaning_service" name="improvement" value="Cleaning service">
+          <label for="cleaning_service">Cleaning service</label><br>
+          <input type="checkbox" id="laundry" name="improvement" value="Laundry">
+          <label for="laundry">Laundry</label><br>
+          <input type="checkbox" id="outdoor" name="improvement" value="Outdoor">
+          <label for="outdoor">Outdoor</label></div><br><br>
+       <div><hr>
+         <p>Any comments or suggestions?</p>
+         <textarea name="comment" rows="5" cols="30" placeholder="Enter your comment here..."></textarea></div>
+        <div>
+          <input type="submit" value="Submit" id="submit">
+        </div>
+          
+          
+        </fieldset>
+      
+       </form>
+    
+    </body>
+  
+</html>
